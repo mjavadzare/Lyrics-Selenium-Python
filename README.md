@@ -4,4 +4,4 @@
 it serachs the song in google (Lyrics tab)
 
 --------------------------------------
-note that chromedriver must be up to date!
+note that chromedriver.exe must be up to date!
