@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 driver = Chrome(executable_path= "chromedriver.exe")
 driver.get("https://www.google.com/")
 search_bar = driver.find_element('name' , 'q')
+
 singer =  input("What's the singer's name? ")
 music = input("What's the name of song? ")
 search_bar.send_keys(f"{singer} {music} Lyrics")
